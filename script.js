@@ -118,13 +118,16 @@ function _displayItems() {
     let tr = tBody.insertRow();
     
     let td1 = tr.insertCell(0);
+    td1.className = "border border-3 border-dark";
     td1.appendChild(completedCheckbox);
 
     let td2 = tr.insertCell(1);
     let textNode = document.createTextNode(item.title);
+    td2.className = "border border-3 border-dark";
     td2.appendChild(textNode);
 
     let td3 = tr.insertCell(2);
+    td3.className = "border border-3 border-dark";
     td3.appendChild(deleteButton);
   });
 }

@@ -5,15 +5,10 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: var(--clr-background);
-}
-
 #counter {
     display: flex;
     justify-content: center;
     background-color: var(--clr-secondary);
-    color: var(--clr-text);
     padding: 0.7rem;
 }
 
@@ -25,29 +20,19 @@ body {
     margin-bottom: 1rem;
 }
 
-.th1 {
-    width: 1rem;
-}
-
-.th4 {
-    width: 1rem;
-}
-
 table {
     width: 50%;
     margin-left: 25%;
-    background-color: var(--clr-third);
+    background-color: var(--clr-buttons);
     border-collapse: collapse;
 }
 
 th {
     background-color: var(--clr-secondary);
     padding: 0.5rem;
-    
 }
 
 td {
-    border: solid 0.3rem rgb(0, 0, 0);
     color: var(--clr-text);
     padding: 0.5rem;
 }
