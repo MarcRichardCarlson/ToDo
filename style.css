@@ -38,12 +38,10 @@ td {
 }
 
 :root {
-  --clr-background: rgb(152, 152, 152);
   --clr-primary: rgb(27, 27, 27);
   --clr-secondary: rgb(146, 155, 146);
   --clr-third: #898d8b;
   --clr-buttons: #48535d;
-  --clr-buttonHover: #29353a;
   --clr-btntext: #ffffff;
   --clr-text: #ffffff;
 }/*# sourceMappingURL=style.css.map */
